@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 import sys
 
 if len(sys.argv) != 4:
@@ -33,20 +30,20 @@ def multiplicar(a, b):
 try:
 
     if (function == "sumar"):
-        print str(operando1) + " + " + str(operando2) + \
-                  " = " + str(sumar(operando1, operando2))
+        print str(operando1) + " + " + str(operando2) +\
+            " = " + str(sumar(operando1, operando2))
 
     elif (function == "restar"):
-        print str(operando1) + " - " + str(operando2) + \
-                  " = " + str(restar(operando1, operando2))
+        print str(operando1) + " - " + str(operando2) +\
+            " = " + str(restar(operando1, operando2))
 
     elif (function == "multiplicar"):
-        print str(operando1) + " x " + str(operando2) + \
-                  " = " + str(multiplicar(operando1, operando2))
+        print str(operando1) + " x " + str(operando2) +\
+            " = " + str(multiplicar(operando1, operando2))
 
     elif (function == "dividir"):
-        print str(operando1) + " / " + str(operando2) + \
-                 " = " + str(dividir(operando1, operando2))
+        print str(operando1) + " / " + str(operando2) +\
+            " = " + str(dividir(operando1, operando2))
 
 
 except ValueError:
